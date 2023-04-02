@@ -1,0 +1,43 @@
+.wrapper {
+  width: 100%;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.wrapper {
+  text-transform: capitalize;
+}
+
+.failed {
+  background: var(--error-50);
+}
+
+.failed span {
+  color: var(--error-500);
+}
+
+.success {
+  background: var(--green-50);
+}
+
+.success span {
+  color: var(--green-500);
+}
+
+.in_progress {
+  background: var(--warning-50);
+}
+
+.in_progress span {
+  color: var(--warning-500);
+}
+
+.cancelled {
+  background: var(--off-white);
+}
+
+.cancelled span {
+  color: var(--black);
+}
