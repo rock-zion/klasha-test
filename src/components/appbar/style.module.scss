@@ -1,0 +1,38 @@
+@import '/src/styles/App.scss';
+
+.appbar {
+  width: calc(100vw - 280px);
+  height: 64px;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--off-white-stroke);
+
+  @media (max-width: $breakpoint-tablet-lg) {
+    width: 100vw;
+    padding: 16px;
+  }
+}
+
+.extended_app_bar {
+  width: 100vw;
+}
+
+.user_profile {
+  margin-left: auto;
+  display: flex;
+}
+
+.language_select {
+  border: none;
+  width: 46px;
+  cursor: pointer;
+  outline: none;
+}
+
+.open_drawer {
+  display: none;
+  @media (max-width: $breakpoint-tablet-lg) {
+    display: block;
+  }
+}
