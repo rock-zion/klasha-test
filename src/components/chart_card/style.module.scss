@@ -1,0 +1,44 @@
+.wrapper {
+  background: var(--white);
+  min-height: 256px;
+  padding: 24px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.body > span {
+  display: block;
+  margin-bottom: 26px;
+}
+
+.wrapper * {
+  color: var(--black);
+}
+
+.wrapper:hover {
+  background: var(--black);
+}
+
+.wrapper:hover * {
+  color: var(--white);
+}
+
+.footer .title {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.footer .amount {
+  line-height: 32px;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  
+}
