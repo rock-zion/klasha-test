@@ -1,0 +1,29 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead td,
+.table tbody td {
+  padding-left: 24px;
+  white-space: nowrap;
+}
+
+.table tbody td {
+  height: 68px;
+  font-size: 14px;
+  border-bottom: 1px solid var(--grey-50);
+  color: var(--black-700);
+}
+
+.table tbody td:last-child {
+  padding-right: 24px;
+}
+
+.table thead td {
+  height: 48px;
+  background-color: var(--off-white);
+  font-family: 'GeneralSans-Semibold';
+  color: var(--black-600);
+  font-size: 16px;
+}
