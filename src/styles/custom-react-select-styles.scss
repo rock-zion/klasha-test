@@ -1,0 +1,14 @@
+.react-select__single-value {
+  font-size: 12px;
+}
+
+.react-select-container .react-select__control {
+  min-height: 40px;
+  border-radius: 8px;
+  border-color: var(--black);
+}
+
+.flat-select .react-select__control {
+  border: none;
+  border-radius: 0;
+}
