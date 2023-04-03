@@ -2,6 +2,24 @@ $breakpoint-tablet-lg: 999px;
 $breakpoint-tablet: 768px;
 $breakpoint-mobile: 576px;
 
+:root {
+  --primary: #ef2c5a;
+  --klasha-white: #fffbf7;
+  --black: #000000;
+  --off-white: #f9f9f9;
+  --white: #ffffff;
+  --off-white-stroke: #ededed;
+  --grey-50: #f7f7f7;
+  --grey-100: #f0f0f0;
+  --black-700: #484848;
+  --black-600: #5f5f5f;
+  --error-50: #ffe8ec;
+  --error-500: #f9123b;
+  --green-50: #ecfdf5;
+  --green-500: #0eab44;
+  --warning-50: #fffbeb;
+  --warning-500: #f59e0b;
+}
 .error-page {
   text-align: center;
   margin-top: 100px;
