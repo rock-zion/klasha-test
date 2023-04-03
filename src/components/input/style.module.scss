@@ -1,0 +1,43 @@
+.btn {
+  background-color: var(--primary);
+  height: 40px;
+  min-width: fit-content;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+}
+
+.btn span {
+  color: var(--white);
+  margin-left: 8px;
+  white-space: nowrap;
+}
+
+.btn_no_icon span {
+  margin-left: 0;
+}
+
+.btn_secondary {
+  background-color: var(--white);
+  border: 1px solid var(--black);
+}
+
+.btn_flat {
+  background: none;
+  padding: 8px;
+}
+
+.btn_black {
+  background-color: var(--black);
+}
+
+.btn_flat span {
+  margin: 0;
+}
+
+.btn_flat span,
+.btn_secondary span {
+  color: var(--black);
+}
+
