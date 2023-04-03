@@ -1,0 +1,27 @@
+@import '/src/styles/App.scss';
+
+.wrapper {
+  background-color: var(--primary);
+  background-image: url('../../assets/icons/bg-lines.png');
+  height: 284px;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (max-width: $breakpoint-tablet) {
+    height: 180px;
+  }
+}
+
+.btn_wrapper {
+  width: 130px;
+}
+
+.wrapper p {
+  color: var(--white);
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+}
