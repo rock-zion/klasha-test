@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -65,7 +65,7 @@ export const options = {
 
 // const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
 
-export function SalesChart({ labels = [] }) {
+export const SalesChart = memo(function SalesChart({ labels = [] }) {
   const data = {
     labels,
     datasets: [
@@ -83,4 +83,4 @@ export function SalesChart({ labels = [] }) {
   };
 
   return <Line options={options} labels={data} data={data} />;
-}
+});
