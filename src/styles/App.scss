@@ -1,6 +1,16 @@
+@import './custom-react-select-styles.scss';
+
 $breakpoint-tablet-lg: 999px;
 $breakpoint-tablet: 768px;
 $breakpoint-mobile: 576px;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  transition: all 0.5s;
+}
 
 :root {
   --primary: #ef2c5a;
@@ -20,9 +30,112 @@ $breakpoint-mobile: 576px;
   --warning-50: #fffbeb;
   --warning-500: #f59e0b;
 }
+a,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.body_text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.btn_text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15.6px;
+}
+
+.h_medium {
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+
+.app {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 280px auto;
+
+  @media (max-width: $breakpoint-tablet-lg) {
+    width: 100vw;
+    grid-template-columns: auto;
+  }
+}
+
+.expanded-app {
+  grid-template-columns: 0px 1fr;
+}
+
+.expanded-main-content {
+  flex: 1;
+  transform: translateX(-280px);
+}
+
+.app-container {
+  overflow-y: auto;
+  padding: 104px 2.5% 0 2.5%;
+  height: calc(100vh - 64px);
+
+  @media (max-width: $breakpoint-tablet-lg) {
+    width: 100vw;
+    padding: 104px 24px 0 24px;
+  }
+}
+
+.expand-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  @media (max-width: $breakpoint-tablet-lg) {
+    display: none;
+  }
+}
+
+.hide-expand-btn {
+  left: -50px;
+}
+
+// utilities
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.flat-left-radius {
+  border-radius: 0 8px 8px 0 !important;
+}
+
+.responsive-table {
+  overflow-x: auto;
+}
+
+.round-btn {
+  border-radius: 40px !important;
+}
+
 .error-page {
   text-align: center;
   margin-top: 100px;
   height: 50px;
 }
 
+.date-range-btn {
+  color: var(--black);
+  background: none;
+  font-weight: 700;
+}
+
+.active-date-range-btn {
+  color: var(--primary);
+}
