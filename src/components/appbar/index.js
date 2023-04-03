@@ -23,6 +23,7 @@ const Appbar = () => {
 
   useEffect(() => {
     i18n.changeLanguage(selectedLanguage);
+    // eslint-disable-next-line 
   }, [selectedLanguage]);
 
   const select_options = [

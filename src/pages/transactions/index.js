@@ -71,6 +71,7 @@ const Transactions = props => {
           <BasicTable hasPagination={true} colunm={table_colunm}>
             <tbody>
               {table_data
+                // eslint-disable-next-line
                 .filter(item => {
                   if (selectedStatus) return selectedStatus === item.status;
                   if (!selectedStatus) return selectedStatus !== item.status;
