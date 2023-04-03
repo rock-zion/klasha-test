@@ -37,6 +37,8 @@ i18n
             sales_overview: 'Sales Overview',
             sales: 'Sales',
             transaction_history: 'Transaction History',
+            nothing_to_see_here: 'Nothing to see here!',
+            go_to_the_homepage: 'Go to the home page',
           },
           status: {
             all_status: 'All Status',
@@ -61,8 +63,9 @@ i18n
             download_report: 'Download report',
             send_a_wire: 'Send a wire',
           },
-          marketing:{
-            klasha_wire: "KlashaWire - send money to businesses globally from Africa"
+          marketing: {
+            klasha_wire:
+              'KlashaWire - send money to businesses globally from Africa',
           },
           dates: {
             todays_sales: "Today's sales",
@@ -93,6 +96,8 @@ i18n
             sales_overview: 'Aperçu des ventes',
             sales: 'Ventes',
             transaction_history: 'Historique des transactions',
+            nothing_to_see_here: 'Rien à voir ici!',
+            go_to_the_homepage: "Aller à la page d'accueil",
           },
           status: {
             all_status: 'Tous les statuts',
@@ -116,8 +121,9 @@ i18n
             download_report: 'Télécharger le rapport',
             send_a_wire: 'Envoyer un fil',
           },
-          marketing:{
-            klasha_wire: "KlashaWire - envoyer de l'argent aux entreprises du monde entier depuis l'Afrique"
+          marketing: {
+            klasha_wire:
+              "KlashaWire - envoyer de l'argent aux entreprises du monde entier depuis l'Afrique",
           },
           dates: {
             todays_sales: 'Les soldes du jour',

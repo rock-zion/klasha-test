@@ -63,8 +63,6 @@ export const options = {
   },
 };
 
-// const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
-
 export const SalesChart = memo(function SalesChart({ labels = [] }) {
   const data = {
     labels,
