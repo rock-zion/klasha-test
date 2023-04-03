@@ -1,0 +1,99 @@
+@import '/src/styles/App.scss';
+@import '/src/styles/fonts.scss';
+
+.overview_chart_grid {
+  width: 100%;
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 23.5%);
+  column-gap: 2%;
+  margin-bottom: 32px;
+
+  @media (max-width: $breakpoint-tablet) {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 24px;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+  }
+}
+
+.pagetiitle {
+  font-size: 18px;
+  font-family: 'GeneralSans-Regular';
+}
+
+.sales_chart_wrapper {
+  border: 1px solid var(--black);
+  height: 284px;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.sales_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  @media (max-width: $breakpoint-tablet) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.h_medium {
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid var(--off-white-stroke);
+}
+
+.sales {
+  display: grid;
+  grid-template-columns: 70.5% auto;
+  grid-column-gap: 2%;
+  align-items: end;
+  margin-bottom: 32px;
+
+  @media (max-width: $breakpoint-mobile) {
+    grid-template-columns: 100%;
+    grid-row-gap: 32px;
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+  }
+}
+
+.sales_toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: $breakpoint-tablet) {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.toggle_wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-right: 16px;
+
+  @media (max-width: $breakpoint-tablet) {
+    width: 50%;
+  }
+}
+
+.r {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 16px;
+
+  @media (max-width: $breakpoint-tablet) {
+    width: 100%;
+  }
+}
