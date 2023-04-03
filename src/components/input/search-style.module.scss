@@ -1,0 +1,19 @@
+.input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--off-white-stroke);
+  padding: 0 32px 0 16px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.icon_wrapper {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
